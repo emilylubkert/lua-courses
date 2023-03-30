@@ -1,0 +1,17 @@
+-- 12 MATH LIBRARY --
+
+print(-5)
+print(math.abs(-5))
+
+print(math.ceil(10.21))  -- Rounds up to the next whole number
+print(math.floor(10.21)) -- Rounds down to the next whole number
+
+print(math.min(5, 20)) -- returns the smallest number given as parameter
+print(math.max(5, 20)) -- returns the biggest number given as parameter
+
+print(math.pi)
+print(math.sqrt(25))
+
+math.randomseed(100)
+print(math.random())	-- returns a random number between 0 and 1
+print(math.random(0, 100))	-- lower and upper bound can be given

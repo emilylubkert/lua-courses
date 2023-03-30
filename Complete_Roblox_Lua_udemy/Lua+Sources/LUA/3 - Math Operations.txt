@@ -1,0 +1,31 @@
+-- 3 MATH OPERATIONS --
+
+-- Addition --
+add1 = 20
+addition = add1+5
+--print("20+5=", addition)
+
+-- Subtraction --
+subtraction = 23-30
+--print("23-30=", subtraction)
+
+-- Multiplication --
+multi = 5*40
+--print("5*40=", multi)
+
+-- Division --
+division = 20/3
+--print("20/3=", division)
+
+-- MODULO/REMAINDER --
+remainder = 20%2
+--print("20%2=", remainder)
+
+-- INCREMENT & DECREMENT --
+number = 5
+
+-- number++ doesn't work!
+-- number-- doesn't work!
+
+number += 1
+number -= 1

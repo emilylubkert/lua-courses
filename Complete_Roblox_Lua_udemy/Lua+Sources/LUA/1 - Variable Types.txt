@@ -1,0 +1,19 @@
+-- LUAU (LUA 5.1) --
+
+-- 1 Variable types --
+
+-- NUMBERS -- 
+x = 10   -- integers
+y = 10.5 -- float
+
+x = nil  -- represents the absence of any value (null)
+
+-- BOOLEAN (true of false) --
+isGoodCourse = true
+isGrounded = true
+
+-- STRINGS -- 
+words = "Hello World"
+manyWords = [[ awienawi neawn e
+ienawoen wl ongl  long long. 
+]]

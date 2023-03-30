@@ -1,0 +1,22 @@
+-- 4 RELATIONAL AND LOGICAL OPERATORS --
+
+-- RELATIONAL: < > <= >= == ~= Produces a Boolean Value (true or false)
+-- LOGICAL: and, or, not
+
+test = 3 < 20 -- true
+--print("is 3 smaller than 20:", test)
+
+test = 20 > 200 -- false
+--print("is 20 bigger than 200:", test)
+
+string1 = "hello"
+string2 = "hello"
+comparison = string1 == string2
+--print(comparison)
+
+x = (comparison and true) -- true (1) and true (1)
+--print("x is:", x)
+
+x = (1 == 1) and (0 == 0) -- true and true = true (and)
+x = (1 ~= 0) or (0 == 1)  -- true or false = true (or)
+x = not x

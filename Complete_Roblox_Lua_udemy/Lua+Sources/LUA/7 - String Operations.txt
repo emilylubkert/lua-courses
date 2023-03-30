@@ -1,0 +1,14 @@
+-- 7 STRING OPERATIONS -- 
+
+local test = "Hello, this is me saying Hello"
+--print(test)
+--print("Length of the string:", #test)
+
+local newTest = string.gsub(test, "Hello", "Howdy")
+--print(newTest)
+
+local finding = string.find(newTest, "this")
+--print("Where is 'this':", finding)
+
+--print("SHOUTING:", string.upper(test))
+--print("whispering:", string.lower(test))

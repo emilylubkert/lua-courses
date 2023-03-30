@@ -1,0 +1,11 @@
+-- 6 LOCAL VARIABLES --
+
+local what = 2
+--print(what)
+
+if what > 1 then
+	local x = 100
+	--print(x)
+end
+
+--print(x)

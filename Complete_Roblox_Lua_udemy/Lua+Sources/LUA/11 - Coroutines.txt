@@ -1,0 +1,17 @@
+-- 11 Coroutines -- 
+
+co = coroutine.create(function(a)
+	for i = a, 8, 1 do
+		--print(coroutine, i)
+		--print(coroutine.status(co))
+		if i == 5 then
+			coroutine.yield(Something Something)
+		end
+	end
+end)
+
+-- 3 Status Suspended, Running, Dead
+--print(Coroutine Status, coroutine.status(co))
+--print(coroutine.resume(co, 3))
+--print(Coroutine Status, coroutine.status(co)) -- Suspended stopped
+--coroutine.resume(co)

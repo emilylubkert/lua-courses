@@ -1,0 +1,19 @@
+-- 9 Tables --
+
+days = {"Monday", "Tuesday", "Wednesday", "Thursdays", "Friday"}
+
+--print("A day: ", days[1]) -- Index starts at 1 instead of 0
+
+for key, value in pairs(days) do
+	--print(value, " ")
+end
+
+table.insert(days, 6, "Saturday")
+table.insert(days, 7, "Sunday")
+
+for i = 1, #days, 1 do
+	--print("Day number ", i, days[i])
+end
+
+person = { firstname="John", lastname="Smith" }
+--print("Person:", person["firstname"], person.lastname)

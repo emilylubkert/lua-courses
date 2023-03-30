@@ -1,0 +1,11 @@
+-- 10 FUNCTIONS -- 
+
+function sum(num1, num2)
+	return num1 + num2
+end
+
+--print("Sum Function:", sum(3, 10))
+
+-- functions as variables
+local x = sum
+--print("x is a function and a variable??? = ", x(20, 5))

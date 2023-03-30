@@ -1,0 +1,27 @@
+-- 5 IF AND ELSE -- 
+
+x = 100
+y = 1000
+isGoodCourse = true
+
+if x > y then -- false
+	--print("x is bigger than y")
+else
+	--print("x is NOT bigger than y")
+end
+
+if isGoodCourse then
+	--print("Yeah, it's a pretty good course")
+end
+
+if isGoodCourse == true then
+	--print("Still realy good")
+end
+
+if x < 50 then
+	--print("FAIL")
+elseif x >= 50 and x < 100 then
+	--print("PASSED")	
+else
+	--print("PASSED WITH HONORS!")
+end

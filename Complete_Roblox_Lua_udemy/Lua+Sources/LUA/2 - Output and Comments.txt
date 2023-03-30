@@ -1,0 +1,12 @@
+-- 2 OUTPUT AND COMMENTS --
+health = 1000
+
+--print("Our health is", health, "HP")
+
+--[[
+
+Multiline 
+comment
+
+NICE
+]]
